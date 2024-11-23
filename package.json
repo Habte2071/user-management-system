@@ -1,0 +1,29 @@
+{
+  "name": "todosql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "index",
+    "mysql",
+    "nodejs",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "A simple Todo application with MySQL database integration",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

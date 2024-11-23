@@ -1,0 +1,1 @@
+INSERT INTO `user`(`id`, `first_name`, `last_name`, `email`, `phone`, `comments`, `status`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')

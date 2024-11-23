@@ -1,0 +1,21 @@
+<div class="form-floating mb-3">
+    <input type="text" name="first_name" class="form-control" id="firstName" placeholder=" " value="{{this.first_name}}" required>
+    <label for="firstName">First Name</label>
+</div>
+<div class="form-floating mb-3">
+    <input type="text" name="last_name" class="form-control" id="lastName" placeholder=" " value="{{this.last_name}}" required>
+    <label for="lastName">Last Name</label>
+</div>
+<div class="form-floating mb-3">
+    <input type="email" name="email" class="form-control" id="email" placeholder=" " value="{{this.email}}" required>
+    <label for="email">Email</label>
+</div>
+<div class="form-floating mb-3">
+    <input type="tel" name="phone" class="form-control" id="phone" placeholder=" " value="{{this.phone}}" required>
+    <label for="phone">Phone</label>
+</div>
+<div class="form-floating mb-3">
+    <textarea name="comments" class="form-control" id="comment" placeholder=" " style="height: 100px;" required>{{this.comments}}</textarea>
+    <label for="comment">Comments</label>
+</div>
+<button type="submit" class="btn btn-primary w-100">Submit</button>
